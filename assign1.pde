@@ -26,7 +26,7 @@ void setup() {
   size(640,480);
   textFont(createFont("fonts/Square_One.ttf", 20));
   machine = new SlotMachine();
-  println("You have 500!!");
+  //println("You have 500!!");
 }
 
 void draw() {
@@ -60,7 +60,7 @@ void draw() {
       
       // Step0================spend $50 to play the game================
       totalScore = totalScore -50;
-      println("You spent 50. Current score: " + totalScore);
+      //println("You spent 50. Current score: " + totalScore);
       
       
       // Step1================set 777 probability
@@ -141,22 +141,22 @@ void draw() {
         println("fAmount == 2");
         if( score0 == score1 ){
           totalScore = totalScore + score0*4 + score2;
-          println("score0 == score1:" + score0 +"," + score1 +"," + score2 );
+          //println("score0 == score1:" + score0 +"," + score1 +"," + score2 );
         }
         else if(score1 == score2){
           totalScore = totalScore + score1*4 + score0;
-          println("score1 == score2:" + score0 +"," + score1 +"," + score2);
+          //println("score1 == score2:" + score0 +"," + score1 +"," + score2);
         }
         else{
           totalScore = totalScore + score0*4 + score1;
-          println("score0 == score2:" + score0 +"," + score1 +"," + score2);
+          //println("score0 == score2:" + score0 +"," + score1 +"," + score2);
         }
       }
       
       //situation 3 *****************
       if(fAmount==3){
         totalScore = totalScore + score0*9;
-        println("TotalScore = " + totalScore );
+        //println("TotalScore = " + totalScore );
       }
       
       

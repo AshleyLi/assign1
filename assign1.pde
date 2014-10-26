@@ -133,7 +133,7 @@ void draw() {
       //situation 1 *****************
       if(fAmount==1){
         totalScore = totalScore + score0 + score1 + score2;
-        println("Not the same. " + score0 +"," + score1 +"," + score2);
+        //println("Not the same. " + score0 +"," + score1 +"," + score2);
       }
       
       //situation 2 *****************

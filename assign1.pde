@@ -138,7 +138,7 @@ void draw() {
       
       //situation 2 *****************
       if(fAmount == 2){
-        println("fAmount == 2");
+        //println("fAmount == 2");
         if( score0 == score1 ){
           totalScore = totalScore + score0*4 + score2;
           //println("score0 == score1:" + score0 +"," + score1 +"," + score2 );
